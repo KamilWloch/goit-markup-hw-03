@@ -114,7 +114,66 @@ ul {
     margin-left: 356px;
 }
 
+/* footer */
 
+.section-footer {
+    width: 1600px;
+    height: 252px;
+    background-color: #2F303A;
+    padding-top: 60px;
+    padding-left: 215px;
+}
+
+.footer-list {
+    list-style: none;
+}
+
+.link-logo-footer {
+    width: max-content;
+    height: 31px;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: var(--white-background);
+}
+
+.web {
+    color: var(--blue-accent);
+}
+
+.adress-footer {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: var(--white-background);
+}
+
+.link-mail-footer {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: var(--grey-text);
+}
+
+.link-phone-footer {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: var(--grey-text);
+}
 
 
 
