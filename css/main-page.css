@@ -77,10 +77,10 @@ ul {
     margin: 0;
 }
 
-.border-header {
+/* .border-header {
     border-bottom: 1px solid;
     border-color: var(--grey-text);
-}
+} */
 
 .header-description {
     padding: 24px 15px 25px 15;
@@ -112,3 +112,120 @@ ul {
     padding: 0;
     margin-left: 356px;
 }
+
+/* button with background */
+
+.solutions {
+    background-color: var(--black-title-text);
+    width: 1600px;
+    height: 600px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 464px;
+    padding-right: 464px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    gap: 30px;  
+}
+
+.title-solutions {
+    color: var(--white-background);
+    text-align: center;
+    display:flex;
+    justify-content: space-between;
+    width: 671px;
+    height: 120px;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    line-height: 60px;
+    font-size: 44px;
+    font-weight: 900;
+    letter-spacing: 0.06em;
+}
+
+.service-button {
+    color: var(--white-background);
+    background-color: var(--blue-accent);
+    border-radius: 4px;
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+
+/* Strengths */
+
+.strengths-list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1170px;
+    height: 101px;
+    margin-top: 94px;
+    margin-left: 215px;
+    margin-right: 215px;   
+}
+
+.strengths-item {
+    width: 270px;
+    height: 101px;
+   
+}
+
+.strengths-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--grey-text);
+}
+
+.strengths-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: var(--grey-text);
+}
+
+h3 {
+    margin: 0;
+}
+/* scope */
+
+.scope-title {
+    width: max-content;
+    height: 42px;
+    margin-top: 94px;
+    margin-left: 624px;
+    margin-right: 624px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: justify;
+    letter-spacing: 0.03em;
+    color: var(--black-title-text);
+}
+
+.scope-list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left: 215px;
+    margin-right: 215px;
+    gap: 30px;
+}
+
+/* team */
+

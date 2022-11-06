@@ -6,6 +6,7 @@
     --grey-text: #757575;
     --black-logo: #000000;
     --black-title-text: #212121;
+    --solutions-background: #2F303A;
 }
 
 body {
@@ -15,7 +16,7 @@ body {
     max-width: 1600px;
     margin: 0px auto;
 }
-
+/* Header */
 .menu {
     color: var(--black-logo);
     font-size: 16px;
@@ -112,3 +113,12 @@ ul {
     padding: 0;
     margin-left: 356px;
 }
+
+
+
+
+
+
+
+
+
