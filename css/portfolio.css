@@ -16,6 +16,15 @@ body {
     max-width: 1600px;
     margin: 0px auto;
 }
+
+.main {
+    width: 1170px;
+    height: 1360px;
+    margin-top: 94px;
+    margin-left: 215px;
+    margin-right: 216px;
+}
+
 /* Header */
 .menu {
     color: var(--black-logo);
@@ -113,6 +122,79 @@ ul {
     padding: 0;
     margin-left: 356px;
 }
+/* filters */
+
+.filters-list {
+    width: 572px;
+    height: 54px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 8px;
+    margin-left: 514px;
+    margin-right: 514px;
+    background-color: #000000;
+}
+
+.button-filters {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 22px;
+    padding-right: 22px;
+}
+
+.button-filters:hover,
+.button-filters:focus {
+    color: var(--white-background);
+    background-color: var(--blue-accent);
+}
+
+.section-list {
+    width: 1170px;
+    height: 1360px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 30px;
+    background-color: #2196F3;
+    margin-left: 215px;
+    margin-right: 215px;
+   
+}
+
+.list-item {
+    flex-basis: calc((100%-60px)/3);
+    width: 370px;
+    height: 404px;
+    background-color: var(--white-background);
+    border: 1px solid #EEEEEE;
+}
+
+.list-item-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    color: var(--black-title-text);
+}
+
+.list-item-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: var(--grey-text);
+}
+
+
 
 /* footer */
 
