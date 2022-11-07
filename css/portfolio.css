@@ -134,7 +134,7 @@ ul {
     gap: 8px;
     margin-left: 514px;
     margin-right: 514px;
-    background-color: #000000;
+    /* background-color: #000000; */
 }
 
 .button-filters {
@@ -159,23 +159,35 @@ ul {
 
 .section-list {
     width: 1170px;
-    height: 1360px;
+    height: 1272px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
     gap: 30px;
-    background-color: #2196F3;
     margin-left: 215px;
     margin-right: 215px;
+    margin-bottom: 94px;
    
 }
 
 .list-item {
-    flex-basis: calc((100%-60px)/3);
+    flex-basis: calc((100% - 60px)/3);
     width: 370px;
     height: 404px;
     background-color: var(--white-background);
+}
+
+.list-item-container {
     border: 1px solid #EEEEEE;
+    width: 368px;
+    height: 108px;
+    margin-top: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 24px;
+    padding-right: 24px;
 }
 
 .list-item-title {
