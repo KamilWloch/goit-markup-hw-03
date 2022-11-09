@@ -10,6 +10,7 @@
 }
 
 body {
+    box-sizing: border-box;
     font-family: var(--main-font);
     background-color: var(--white-background);
     color: var(--grey-text);
@@ -20,15 +21,16 @@ body {
 /* header */
 
 .header-section {
+    box-sizing: border-box;
     width: 1600px;
     height: 80px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    border-bottom: 1px black;
 }
 
 .header-logo {
+    box-sizing: border-box;
     width: 145px;
     height: 31px;
     font-family: var(--secondary-font);
@@ -45,8 +47,8 @@ body {
     color: var(--blue-accent);
 }
 
-
 .main-menu {
+    box-sizing: border-box;
     width: 261px;
     height: 16;
     list-style: none;
@@ -59,6 +61,7 @@ body {
 }
 
 .menu {
+    box-sizing: border-box;
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
@@ -73,6 +76,7 @@ body {
 }
 
 .contact {
+    box-sizing: border-box;
     width: 295px;
     height: 16px;
     list-style: none;
@@ -85,6 +89,7 @@ body {
 }
 
 .header-contact {
+    box-sizing: border-box;
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
@@ -94,17 +99,19 @@ body {
 }
 /* filters */
 
+.section-filters {
+    box-sizing: border-box;
+    width: 1600px;
+    height: 182px;
+}
+
 .filters-list {
-    width: 572px;
-    height: 54px;
+    list-style-type: none;
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
-    justify-content: space-between;
+    justify-content: center;
     gap: 8px;
-    margin-left: 514px;
-    margin-right: 514px;
-    /* background-color: #000000; */
+    padding-top: 100px;
 }
 
 .button-filters {
@@ -113,54 +120,57 @@ body {
     line-height: 26px;
     text-align: center;
     letter-spacing: 0.03em;
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
     padding-top: 6px;
     padding-bottom: 6px;
     padding-left: 22px;
     padding-right: 22px;
+    background-color:#F5F4FA;
 }
-
+        
 .button-filters:hover,
 .button-filters:focus {
     color: var(--white-background);
     background-color: var(--blue-accent);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+/* Portfolio */
+.section-portfolio {
+    box-sizing: border-box;
+    width: 1170px;
+    height: 1360px;
+    margin-left: 215px;
+    margin-right: 215px;
 }
 
 .section-list {
-    width: 1170px;
-    height: 1272px;
+    list-style: none;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
     gap: 30px;
-    margin-left: 215px;
-    margin-right: 215px;
-    margin-bottom: 94px;
-   
+    padding: 0;
 }
 
 .list-item {
-    flex-basis: calc((100% - 60px)/3);
+    box-sizing: border-box;
     width: 370px;
     height: 404px;
-    background-color: var(--white-background);
+    flex-basis: calc((100% - 60px)/3);
 }
 
 .list-item-container {
+    box-sizing: border-box;
+    width: 370px;
+    height: 110px;
+    background: #FFFFFF;
     border: 1px solid #EEEEEE;
-    width: 368px;
-    height: 108px;
-    margin-top: 0;
-    padding-top: 20px;
-    padding-bottom: 20px;
     padding-left: 24px;
-    padding-right: 24px;
 }
 
 .list-item-title {
+    width: 322px;
+    height: 36px;
     font-weight: 700;
     font-size: 18px;
     line-height: 36px;
@@ -169,14 +179,14 @@ body {
 }
 
 .list-item-text {
+    width: 322px;
+    height: 30px;
     font-weight: 400;
     font-size: 16px;
     line-height: 30px;
     letter-spacing: 0.03em;
     color: var(--grey-text);
 }
-
-
 
 /* footer */
 
