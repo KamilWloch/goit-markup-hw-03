@@ -364,6 +364,7 @@ h3 {
     padding-left: 22px;
     padding-right: 22px;
     background-color: #F5F4FA;
+    cursor: pointer;
 }
 
 .button-filters:hover,
